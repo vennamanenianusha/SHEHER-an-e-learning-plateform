@@ -16,6 +16,10 @@
 &nbsp; &nbsp; &nbsp; &nbsp;Game page could not be accessed without the accounts password, as kids would be willing to play rather than focus on other things not to invest more time on playing games we have provided the password entry so the parents have to enter the password and they will know what the kid is actually playing. The games which we have provided are those which would help the kid to improve her concentration and the logical working ability of her brain.<br>
 &nbsp; &nbsp; &nbsp; &nbsp;There are so many women in their houses who are willing to contribute their knowledge to others, we encourage people like them to share their work so that this would bring light into many young kids life and might inspire them to choose a right path for themselves. As of now we are only providing for age limit up to 11 but we are willing to expand.<br>
 
+Our YouTube link:
+<br>
+https://youtu.be/QaLNSgTMtjE
+<br>
 
 Regards,<br/>
 Team SHEHER<br/>
