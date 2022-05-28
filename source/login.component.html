@@ -1,0 +1,51 @@
+<div style = "margin-top: -10px;"><app-header></app-header></div>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+ integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+ <style>
+    .bg{
+      width: 100%;
+      height: 28.8em;
+      background-size: 100% 100%;
+      background-position: top center;
+      background: url('src\app\login\loginbg.jpg')  center;
+    }
+  </style>
+    
+    <!-- Latest compiled and minified CSS --> 
+</head>
+
+<body>
+    <br><br><br>
+<h1>LOGIN</h1>
+<br>
+<br>
+<div class="bg">
+<div class="container">
+    <form #loginForm=ngForm (ngSubmit)="loginSubmit2(loginForm.value)" class="form-group" novalidate>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input type="text" placeholder="email" name="email" ngModel required #email=ngModel
+                class="form-control"  maxlength="50" /> <br />
+        </div>
+        <br>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+        <input type="password" placeholder="Password" name="password" ngModel required #password=ngModel
+            class="form-control"  maxlength="10" /><br />
+        </div>
+        <br>
+        <br>
+            <button [disabled]="!loginForm.valid"><a>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                 Submit</a>
+            </button>
+    </form>
+</div></div>
+</body>
+</html>
+ 
