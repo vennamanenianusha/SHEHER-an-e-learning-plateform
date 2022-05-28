@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href = "./register.component.css"/>
+    </head>   
+<body>
+<div id="login-box"><form>
+    <div class="left">
+      <h1>Sign up</h1>
+      
+      <input type="text" name="username" placeholder="Username" [(ngModel)]='user.userName'/>
+      <input type="text" name="email" placeholder="E-mail" [(ngModel)]='user.email'/>
+      <input type="password" name="password" placeholder="Password" [(ngModel)]='user.password'/>
+      <input type="password" name="password2" placeholder="Retype password" [(ngModel)]='user.password2' />
+      <input type="text" name="Child Name" placeholder="Child Name" [(ngModel)]='user.childName'/>
+      <input type="text" name="Grade" placeholder="Grade" [(ngModel)]='user.grade'/>
+      <input type="text" name="Mobile Number" placeholder="Mobile Number" [(ngModel)]='user.mobileNumber'/>
+      
+      <input type="submit" name="signup_submit" value="Sign me up" (click)="registerUser()"/>
+    </div>
+    </form>
+    <div class="right">
+     <span class="loginwith">Sign in with<br />social network</span>
+      
+      <button class="social-signin facebook">Facebook</button>
+      <button class="social-signin twitter">Twitter</button>
+      <button class="social-signin google"><img
+        width="20px"
+        style="border: 0"
+        alt="Google sign-in"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png"
+      />oogle</button>
+    </div>
+    <div class="or">OR</div>
+  </div>
+</body>
+  </html>
