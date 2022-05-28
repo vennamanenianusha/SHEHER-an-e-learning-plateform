@@ -1,0 +1,115 @@
+<app-header></app-header>
+<body>
+  <img class="center" src="\assets\SIRIUS_DP1.png" />
+  <img class="image2" src="\assets\sirius_logo.png" width="80px" height="85px" style="margin-top:52px;"/>
+  <button class = "open-button2">
+    <div width:-100px style="margin-top: -20px;margin-left: -27px;color:#0e0d0d"><audio autoplay controls loop><source src = "/assets/pp.mp3"></audio></div>
+  </button>
+  <button class = "open-button"(click) ="openForm()"><b>PAL</b></button>
+  <div class="chat-popup" id="myForm">
+    <div class="form-container">
+      <iframe width="280" height="500" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/7987f959-995a-4857-a50b-605fe39113fd"></iframe>
+      <button type="button" class="btn cancel" (click)="closeForm()">Close</button>
+  </div>
+  </div>
+  <div class="parent" style="background-color: #f5f1f0;">
+  </div>
+  <div>
+    <h3 style="font-family: 'Apple Chancery', cursive; background-color:#f5f1f0 ; text-align:center;text-indent: 4em;">
+      <br><br><br><b>Sheher</b> is one of the best online platforms for learning, providing your children with high
+      quality education.
+      It is one of the most effective learning channels for children to learn and improve primary schooling skills. It
+      is easy to access content by navigating to age specific categories.
+      We offer an exciting, age-appropriate online primary school program that is designed to ensure your child to be
+      the best.
+      The provided study program is categorized based on the grade of the children.
+      <br><br><br>
+    </h3>
+
+    <p style="text-align:center;">
+      <img src="\assets\benefits.png" height="93px" width="200" />
+    </p>
+    <div
+      style="line-height: 2.0; font-family: 'Apple Chancery', cursive; background-color:#f5f1f0; text-align:center ;">
+      <ul>
+        <li>Parents and children has access to all the materials, books and videos</li>
+        <li>Kids can enjoy their learning by playing games, solving puzzles, riddles etc</li>
+        <li>Kids can find a wide range of stories and poems</li>
+        <li>All material available is free of cost</li>
+        <li>A variety of programs are designed based on the age group of the baby</li>
+        <li>The interactive live sessions of Sheher are super informative and allows the kid to learn things easily</li>
+      </ul>
+    </div>
+  </div>
+  <div class="container">
+    <div class="card">
+      <div class="box">
+        <div class="content">
+          <h2>01</h2>
+          <h3 style="font-family: 'Apple Chancery', cursive;">EXPLORE</h3>
+          <img src="\assets\explore.png" width="130" height="130">
+          <br>
+          <a href="\login">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="box">
+        <div class="content">
+          <h2>02</h2>
+          <img src="\assets\learn1.png" width="130" height="220">
+          <a href="\login">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="box">
+        <div class="content">
+          <h2>03</h2>
+          <h3 style="font-family: 'Apple Chancery', cursive;">CREATE</h3>
+          <img src="\assets\create.png" width="200" height="200">
+          <a href="\login">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <video width="1200px" height="500px" controls autoplay loop>
+
+      <source src="\assets\drawing.mp4" type="video/mp4">
+    </video>
+    <br>
+  </div>
+  <div style = "margin-top : 100px">
+  <app-comments></app-comments></div>
+  <div class="box1">
+    <p class="heading" style="font-size: 25;">FAQs</p>
+    <div class="faqs">
+      <details>
+        <summary>Sheher program is available for which classes?
+        </summary>
+        <br>
+        <p style="font-size: 15px;">Student's across classes 1 to 5 can attend and learn from online classes.</p>
+      </details>
+      <details>
+        <summary>Are the classes free or subscriptions?</summary><br>
+        <p style="font-size: 15px;">Yes, the classes are free. More details about the classes will be provided by our
+          counsellor</p>
+      </details>
+      <details>
+        <summary>Are Sheher Classes mapped to the school syllabus/curriculum?</summary><br>
+        <p style="font-size: 15px;">Yes, We have multiple batches available for students to select from to suit their
+          study plan as per the school syllabus..</p>
+      </details>
+      <details>
+        <summary>What is a free demo class and how do I register for it?</summary><br>
+        <p style="font-size: 15px;">Your child can attend a free demo class by our top teachers to experience our
+          programmes first-hand. This is a great way to understand SIRIUS way of teaching. Our counselor will help book
+          a demo class for you at your convenience</p>
+      </details>
+    </div>
+  </div>
+</body>
+<app-footer></app-footer>
